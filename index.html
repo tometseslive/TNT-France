@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Fréquences TNT en France</title>
+    <link rel="icon" type="image/png" href="https://cdn.glitch.com/faf02bb5-0b45-42f5-8467-dbbacf618dcf%2Ftnt.png" />
+    <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="/ui.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+    <script src="/clock.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <style>html {scroll-behavior: smooth;}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css">
+  </head>
+  <body style="margin: 0; font-family: 'Roboto';">
+    <!-- REMONTER -->
+    <a href="#">
+      <button class="mdc-fab mdc-fab--extended" aria-label="Remonter" style="position: fixed; bottom: 18px; right: 18px; background-color: #b80000;">
+        <div class="mdc-fab__ripple"></div>
+        <span class="mdc-fab__icon mdi mdi-arrow-up"></span>
+        <span class="mdc-fab__label"><span id="clock">00:00:00</span></span>
+      </button>
+    </a>
+    <div class="header">
+      <br><br><br>
+      <center>
+        <img src="https://cdn.glitch.com/faf02bb5-0b45-42f5-8467-dbbacf618dcf%2Ftnt.png" style="width: 70px; max-width: 100%;"><br>
+        <br>
+        <span style="font-size: 30px;">Fréquences TNT</span><br>
+      </center>
+    </div>
+    <svg viewbox="0 0 500 75" preserveaspectratio="none" style="width: 100%;">
+      <path d="M0.00,10.98 C307.37,49.23 241.49,-9.98 499.43,17.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #b80000;"></path>
+    </svg>
+    <div class="card">
+      <div class="card-body">
+        <p>
+          <span class="mdi mdi-shield-check" style="font-size: 22px; color: #b80000;"></span><br>
+          Bienvenue sur <b>Fréquences TNT</b>, le site qui regroupe toutes les chaine de télévision Française.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <div class="card-body">
+        <p>
+          <span class="mdi mdi-information-outline" style="font-size: 22px; color: #b80000;"></span><br>
+          Plusieurs listes peuvent être disponibles en fonction de l'évolution des informations dans la base.<br>
+          Il vous suffit de cliquer sur une ville dans la base ci-dessous pour accéder à la liste correspondante.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <div class="card-body">
+        <p>
+          <span class="mdi mdi-database-search" style="font-size: 30px; color: #b80000;"></span><br>
+          <span style="font-size: 18px;">Villes et départements</span>
+        </p>
+        <table style="border: 1px solid black; width: 100%;">
+          <tbody>
+            <tr style="border: 1px solid black;">
+              <td><span style="font-size: 13px; color: #b80000;">DEPARTEMENT</span></td>
+              <td><span style="font-size: 13px; color: #b80000;">VILLE</span></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td><a href="city/Rodez.html" style="color: black;">Rodez</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+<br>
+    <footer>
+      <div class="center5">
+        <br>
+        <span style="font-size: 22px;">Fréquences TNT</span><br><br>
+        <table>
+          <tr>
+            <td><b>Ce site</b></td>
+            <td><b>Retrouvez-nous</b></td>
+            <td><b>Contact</b></td>
+          </tr>
+          <tr>
+            <td><a href="/">Accueil</a></td>
+            <td><a href="https://twitter.com/tometseslive">Twitter</a></td>
+            <td>Lien Inconnu</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="https://discord.com/invite/rjnM653">Discord</a></td>
+            <td></td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        &copy; tometseslives8 2020<br><br>
+      </div>
+    </footer>
+  </body>
+</html>
