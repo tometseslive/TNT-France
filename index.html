@@ -5,19 +5,30 @@
     <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
     <link href="/ui.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
-    <script src="/clock.js" defer></script>
+    <script src="/script.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <style>html {scroll-behavior: smooth;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css">
   </head>
-  <body style="margin: 0; font-family: 'Roboto';">
+  <body style="margin: 0; font-family: 'Roboto';" onload="init();">
     <!-- REMONTER -->
+    <div style="background-color: rgba(0, 0, 0, 0.5); position: fixed; width: 100%; height: 100%;" class="overlay" id="aa_notice">
+      <div style="background-color: #000; color: white;">
+        <div style="padding-left: 5%; padding-right: 5%;">
+          <br>
+          <b>Bienvenue!</b><br>
+          Ce site est en accès anticipé, ce qui signifie que certaines données peuvent être incomplètes ou incorrectes.<br>
+          <button onclick="hide_beta();">OK</button>
+          <br><br>
+        </div>
+      </div>
+    </div>
     <a href="#">
       <button class="mdc-fab mdc-fab--extended" aria-label="Remonter" style="position: fixed; bottom: 18px; right: 18px; background-color: #b80000;">
         <div class="mdc-fab__ripple"></div>
         <span class="mdc-fab__icon mdi mdi-arrow-up"></span>
-        <span class="mdc-fab__label"><span id="clock">00:00:00</span></span>
+        <span class="mdc-fab__label"><span id="clock">...</span></span>
       </button>
     </a>
     <div class="header">
@@ -64,7 +75,7 @@
             </tr>
             <tr>
               <td>12</td>
-              <td><a href="city/Rodez.html" style="color: black;">Rodez</a></td>
+              <td><a href="city/Rodez" style="color: black;">Rodez</a></td>
             </tr>
           </tbody>
         </table>
@@ -84,18 +95,27 @@
           <tr>
             <td><a href="/">Accueil</a></td>
             <td><a href="https://twitter.com/tometseslive">Twitter</a></td>
-            <td>Lien Inconnu</td>
+            <td><a href="mailto:support@tnt-france.tk">Mail Support</a></td>
           </tr>
           <tr>
             <td></td>
             <td><a href="https://discord.com/invite/rjnM653">Discord</a></td>
             <td></td>
           </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
         </table>
         <br>
         <br>
-        &copy; tometseslives8 2020<br><br>
+        &copy; tometseslives8 2020<br>
+        Ce site est protégé grâce à <b>Cloudflare</b>.
+        <br><br>
       </div>
     </footer>
+    
+    <script src="/script.js" type="text/javascript" defer></script>
   </body>
 </html>
