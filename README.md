@@ -1,6 +1,6 @@
 # ~~Fréquence-TNT~~
 # TNT France
-https://wwww.tnt-france.tk <br>
+https://www.tnt-france.tk <br>
 https://tnt-france.tk
 
 ## Bienvenue sur mon site
