@@ -1,8 +1,6 @@
 # ~~Fréquence-TNT~~
 # TNT France
-https://www.tnt-france.tk <br>
-https://tnt-france.tk
-
+<br>
 ## Bienvenue sur mon site
 
 **Sur ce site vous trouverez des listes de stations tnt suivis de leur postion etc.** 
